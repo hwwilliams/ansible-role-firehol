@@ -2,11 +2,19 @@
 dependencies: []
 
 galaxy_info:
-  role_name: firewall
+  role_name: firehol
   author: hwwilliams
-  description:
+  description: Installs and configures FireHOL on Debian/Ubuntu based Linux systems
   license: license (MIT)
   min_ansible_version: 2.4
-  platforms: []
+  platforms:
+    - name: Debian
+      versions:
+        - stretch
+    - name: Ubuntu
+      versions:
+        - bionic
   galaxy_tags:
+    - firewall
+    - networking
     - system
