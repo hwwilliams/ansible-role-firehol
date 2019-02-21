@@ -1,0 +1,12 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: firewall
+  author: hwwilliams
+  description:
+  license: license (MIT)
+  min_ansible_version: 2.4
+  platforms: []
+  galaxy_tags:
+    - system
