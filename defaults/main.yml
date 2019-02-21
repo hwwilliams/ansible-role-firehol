@@ -1,0 +1,20 @@
+---
+# defaults file for ansible-role-firehol
+
+firehol_version: 6
+
+firehol_ports:
+  - service: ssh
+    server: "tcp/22"
+    client: "default"
+
+firehol_interfaces:
+  - interface: "any world"
+    client_rules: [ "all accept" ]
+    server_rules: []
+    other_rules: []
+
+firehol_routers:
+  - router: ""
+    route_rules: []
+    other_rules: []
