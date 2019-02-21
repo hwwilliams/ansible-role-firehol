@@ -1,5 +1,6 @@
 ---
-- name: Restart FireHOL
+- name: Restart and Enable FireHOL
   service:
     name: firehol
     state: restarted
+    enabled: true
