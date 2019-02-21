@@ -15,4 +15,4 @@
     owner: root
     group: root
     mode: 0644
-  notify: Restart FireHOL
+  notify: Restart and Enable FireHOL
