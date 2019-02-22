@@ -10,7 +10,7 @@
 
 - name: Ensure FireHOL Configuration File Is Present
   template:
-    src: firehol.conf.j2
+    src: templates/firehol.conf.j2
     dest: /etc/firehol/firehol.conf
     owner: root
     group: root
