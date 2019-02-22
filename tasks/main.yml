@@ -9,6 +9,7 @@
   when: ansible_os_family == 'Debian'
 
 - name: Ensure FireHOL Configuration File Is Present
+  become: true
   template:
     src: templates/firehol.conf.j2
     dest: /etc/firehol/firehol.conf
