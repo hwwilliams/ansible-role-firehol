@@ -4,6 +4,8 @@
 
 Installs [FireHOL](https://firehol.org/) on Debian/Ubuntu based Linux servers.
 
+Also on [Ansible Galaxy](https://galaxy.ansible.com/hwwilliams/firehol).
+
 ## Requirements
 
 None.
