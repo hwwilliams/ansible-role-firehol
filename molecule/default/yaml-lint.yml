@@ -6,5 +6,3 @@ rules:
     level: warning
   new-line-at-end-of-file:
     level: warning
-  truthy:
-    level: warning
